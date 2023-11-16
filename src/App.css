@@ -1,0 +1,100 @@
+/* App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+.banner {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.banner-negro {
+  background-color: #333;
+  height: 60px;
+}
+
+.banner-naranja {
+  background-color: #ff7f50;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  padding-left: 2cm; /* Margen de 2 cm al lado izquierdo */
+}
+
+.naranja {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Alinea los elementos en el banner naranja */
+  padding: 20px;
+  position: relative;
+}
+
+.logo-en-banner {
+  width: 135px; /* Ajusta el tamaño del logo según sea necesario */
+  height: auto; /* Mantiene la proporción original del logo */
+}
+
+.roster {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.buscador {
+    padding: 12px;
+    width: 30%;
+    box-sizing: border-box;
+  }
+
+.buscador input {
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contenido {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.botones {
+  display: flex;
+  margin-top: 10px;
+}
+
+.botones button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  background-color: #b4b8b4;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.tabla-container {
+  margin-top: 10px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
